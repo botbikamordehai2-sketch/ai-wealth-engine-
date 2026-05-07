@@ -1,0 +1,9 @@
+[project]
+name = "signalforge"
+version = "0.1.0"
+description = "SignalForge causal reasoning kernel"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
